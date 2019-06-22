@@ -1,3 +1,9 @@
+<#
+.SYNOPSIS
+Generates certificates to be used to setup secure dockerd communication.
+.NOTES
+Run this script on Linux based OS that has "openssl" command-line tool.
+#>
 [CmdletBinding()]
 Param(
     [string]$DockerHostName,
